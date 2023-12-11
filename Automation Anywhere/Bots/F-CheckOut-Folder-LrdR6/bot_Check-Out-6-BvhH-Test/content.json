@@ -1,0 +1,65 @@
+{
+  "nodes": [
+    {
+      "uid": "41005815-12d6-4c12-9632-b713b240888b",
+      "commandName": "messageBox",
+      "packageName": "MessageBox",
+      "attributes": [
+        {
+          "name": "closeMsgBox",
+          "value": {
+            "type": "BOOLEAN",
+            "boolean": true
+          }
+        },
+        {
+          "name": "timeOut",
+          "value": {
+            "type": "NUMBER",
+            "number": "5"
+          }
+        },
+        {
+          "name": "content",
+          "value": {
+            "type": "STRING",
+            "string": "This message comes from Bot Check-Out-6-BvhH-Test"
+          }
+        },
+        {
+          "name": "scrollLines",
+          "value": {
+            "type": "NUMBER",
+            "number": "30"
+          }
+        },
+        {
+          "name": "title",
+          "value": {
+            "type": "STRING",
+            "string": "API Automation"
+          }
+        }
+      ],
+      "commandId": "43",
+      "packageId": "43"
+    }
+  ],
+  "variables": [
+    {
+      "name": "prompt-assignment",
+      "description": "A variable you can use for assignments",
+      "type": "STRING",
+      "subtype": "UNDEFINED",
+      "input": false,
+      "output": false
+    }
+  ],
+  "dependencies": [],
+  "packages": [
+    {
+		"name":"MessageBox",
+      	"version": "3.6.0"
+    }
+  ]
+}
